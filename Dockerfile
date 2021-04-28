@@ -10,6 +10,5 @@ VOLUME /app/config
 VOLUME /app/server.properties
 
 EXPOSE 25565/tcp
-EXPOSE 25565/udp
 
 CMD ['startserver.sh']
