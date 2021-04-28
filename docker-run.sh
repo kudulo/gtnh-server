@@ -6,12 +6,12 @@ if ! type "$podman" > /dev/null; then
   -v config/:/app/config \
   -v server.properties:/app/server.properties \
   -p 25565:25565/tcp \
-  gtnh-server
+  justinlex/gtnh-server
 else
   # Podman
   podman run -it --rm \
   -v config/:/app/config \
   -v server.properties:/app/server.properties \
   -p 25565:25565/tcp \
-  gtnh-server
+  justinlex/gtnh-server
 fi
