@@ -13,4 +13,3 @@ EXPOSE 25565/tcp
 EXPOSE 25565/udp
 
 CMD ['startserver.sh']
-git log
